@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="application.css">
+
+    </head>
+
+    <body>
+
+          <!--Starting of header-->
+          <header>
+                <img class="logo" src="Assets/full_logo_white.png" alt="full_logo"> 
+                <nav>
+                     <ul class="nav_bar">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">Who we are</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                     </ul>        
+                </nav>
+            </header>
+
+             <!--Main Content-->
+
+             <content>
+
+                 
+
+                    <!--Company Logo-->
+    
+                    <div class="black_logo">
+                        <img src = "Assets/logo_mrcoffee.png" alt="Company logo"><br><br>
+                        <br>
+                        <p>Tell us everything!</p>
+                    </div>
+
+                     <!-- Contact us form-->
+                    <div class="contactUs_form">
+                        <form id="myForm" onsubmit="executeSend()">
+                            <label for="lname">Last name<superstring>*</superstring></label><br>
+                            <input type="text" id="lname" required><br><br>
+                            <label for="fname"></label>First name<superstring>*</superstring></label><br>
+                            <input type="text" id="fname" required><br><br>
+                            <label for="phone">Telephone<superstring>*</superstring></label><br>
+                            <input type="tel" id="phone" pattern="[0][0-9]{3}[0-9]{3}[0-9]{3}"required><br><br>
+                            <label for="email">Mali address<superstring>*</superstring></label><br>
+                            <input type="email" id="email" required><br><br>
+                            <label for="message">Message<superstring>*</superstring></label<br>
+                            <textarea id="message" placeholder="Type your message here" required></textarea><br><br>
+                            <button id="submit" type="submit"> SEND </button>
+                            <!--<button  onsubmit="sendContact();">Submit!</button> -->
+                        
+                        </form> 
+
+                        
+                    </div>
+
+                     <!--Pop Up Message-->
+
+                     <div id="myModal" class="modal">
+                        
+                        
+                        <div class="modal-content">
+                           <!--<span class="close">&times;</span>-->
+                           <img src="Assets/logo_dark.png">
+                           
+
+                           <div class="modal-text">
+                                <p><strong>THANK YOU</strong> </p><br>
+                            <p>Your message has been sent !</p><br><br>
+                            <p>We will try to answer them as quickly as possible. See you soon<br> at Mr. Coffee</p>
+                            <br>
+                            <br>
+                            <br>
+                            <button id="close" type="button">CLOSE</button>
+                         </div>
+
+                        </div>
+
+                        
+  
+                    </div>
+
+                    <!-- Text-->
+                    <div class="text">
+                            <p>We are waiting for you !</p>
+                        </div>
+                  <!-- Address -->
+
+                    <div id="address_container">
+                        <p><strong> Mr.Coffee</strong><br>
+                            15 place Jules Guesde<br>
+                                75006 Paris<br>
+                                <br>
+                                Tel : +33 9 46 25 78 45<br>
+                                Mail : contact@mr-coffee.com
+                        </p>
+                    </div>
+
+                    <!-- Map -->
+                    <div id="map">
+                         <img src="Assets/carte_contact.png" alt="Map">
+                    </div>
+
+                   
+
+            </content>
+
+             <!--Starting of footer tag-->
+
+            <footer> 
+                
+                    <div class="footer_container">
+    
+                        <img src="Assets/logo_blanc.png" alt="bottom_logo">
+                    
+    
+                         <div class="three_images">
+                             <p>Follow us on social media!</p> 
+                             <img src="Assets/logo_linkedin.png" id="linkedin" alt="linkedin image">
+                             <img src="Assets/logo_twitter.png" id="twitter" alt="logo_twitter image">
+                             <img src="Assets/logo_facebook.png" id="facebook" alt="linkedin image">
+                    
+                         </div>
+                    </div>
+    
+               </footer>
+
+              <script src="form.js"></script>
+
+    </body>
+
+
+</html>    

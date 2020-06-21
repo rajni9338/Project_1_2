@@ -1,0 +1,1002 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html body{
+    height: 100vw;
+}
+
+/*----------------Header Styling----------------------------------*/
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #6A7B8B;
+    height: 100px;
+}
+
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    margin-right: auto;
+    height: 36px;
+    width: 127px;
+}
+
+.nav_bar{
+    list-style: none;
+}
+
+.nav_bar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/*------------------------Main Content-----------------------------*/
+
+content{
+    height: 100vw;
+    width: 100vw;
+}
+
+/*------------------------Home Page---------------------------------*/
+
+/* Company's Black Logo*/
+
+.black_logo img{
+    height: 150px;
+    width: 150px;
+    margin-left: 45%;
+}
+
+.black_logo p{
+    text-align: center;
+    font-size: 25px;
+    color: #5C5B5B;
+}
+
+/*Home Page first image*/
+
+.first_image{
+    position: relative;
+    width: 90%;  
+}
+
+.first_image img{
+    height: 700px;
+    width: 100%;
+    margin-left: 5%;
+    padding: 0;
+}
+
+.imagetext{
+    height: 40px;
+    width: 100%;
+    top: 15%;
+    margin-left: 7%;
+    position: absolute;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    color: white;  
+    text-shadow: 2px 2px 2px rgb(31, 29, 29);
+}
+
+/* Home page Mr.Coffee Text*/
+
+#mr_coffee{
+    height: 100px;
+    margin-top: 20px;
+}
+
+#mr_coffee h1{
+    color: #5C5B5B;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+/* Home Page Three Container */
+
+.three_container{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 4%;
+}
+
+.trio{
+    margin: 10px;
+    width: 40%; 
+    background-color: rgb(115, 128, 139);
+    height: 90%;
+}
+
+.trio img{
+    height: 100px;
+    width: 100px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.trio h2{
+    color: #5C5B5B;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.trio p{
+    color: #5C5B5B;
+    font-size: 12px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    color: white;
+}
+
+/* Home Page Find out more button */
+
+.find_button{
+    margin: 50px 0;
+    height: 150px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.find_button button{
+    background-color: #6A7B8B;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+button:hover{
+    
+    background-color: rgb(93, 118, 139);  
+}
+
+.find_button h2{
+    text-align: center;
+    padding-top: 40px;
+    color: #5C5B5B;
+}
+
+ /* Home Page Open Sign */
+
+.open{
+    width: 100%;
+    
+}
+
+.open ul{
+    padding: 0 80px;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.open ul li p{
+    color: #5C5B5B;
+    padding: 25px;
+    
+}
+
+.open ul li img{
+    height:50px;
+    width: 50px;
+}
+
+/* Home Page Two Container */
+
+.duo{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.left_container p{
+    text-align: center;
+    font-size: 12px;
+    color: #5C5B5B;
+    width: 500px;
+}
+
+.right_container p{
+    text-align: center;
+    font-size: 12px;
+    color: #5C5B5B;
+    width: 500px;
+}
+
+/* Home Page Bottom Container */
+
+.bottom_container{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+.bottom_container p{
+    text-align: center;
+    color: #5C5B5B;
+    font-size: 14px;
+}
+
+.bottom_container p strong{
+    font-size: 20px;
+}
+
+/*-----------------------------Contact Us Page----------------------------------*/
+
+/*Contact Us Form */
+
+.contactUs_form{
+    padding: 2% 30% 5% 30%;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    background-color: #C5CBD0;
+    margin: 10px 0;
+}
+
+form textarea{
+    width: 100%;
+    height: 100px;
+    background-color: #C5CBD0;
+    margin: 10px 0;
+}
+
+::placeholder{
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+
+button{
+    background-color: #6A7B8B;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 32%;
+}
+
+
+/* Contact Page "We are waiting for you" text */
+
+.text p{
+    text-align: center;
+    font-size: 25px;
+    color: #5C5B5B;
+}
+/* Contact Page Address Container */
+
+#address_container{
+    height: 200px;
+    margin: 0 20% 5% 20%;
+    color: #5C5B5B;
+    padding-top: 50px;
+}
+
+/* Contact Page Map*/
+
+#map{
+    height: 800px;
+}
+
+#map img{
+    margin-left: 30%;
+}
+
+#address_container p{
+    width: 40%;
+    height: 100%;
+}
+
+
+/* Pop Up Message */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    padding-bottom: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+.modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #888;
+    height: 100%;
+    width: 80%;
+    display: flex;
+  }
+
+  .modal-content p{
+      text-align: center; 
+      padding-left: 30px;
+  }
+
+  .modal-content img{
+      height: 80px;
+      width: 80px;
+  }
+
+  .modal-text{
+      margin: 2%;
+      width: 80%;
+  }
+
+  .modal-text p{
+    text-align: center; 
+    padding-left: 30px;
+}
+  
+  /* Modal Close Button */
+  #close{
+    color: white;
+    /*margin-left: 35%;*/
+    margin: 0 42%;
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #close:hover,
+  #close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+/*-------------------------About Us Page----------------------------------*/
+
+
+ 
+/* About Page Containers_01 */
+
+.about_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5% 10% 5%;
+}
+
+#left_container_01{
+    height: 500px;
+    width: 700px;
+    padding-top: 5%;
+}
+
+.main_text{
+    font-size: 30px;
+    font-weight: 800; 
+    color: #5C5B5B;
+}
+
+#left_container_01 p{
+    font-size: 20px;
+    color: #5C5B5B;
+}
+
+#right_container_01{
+    height: 600px;
+    width: 700px;
+}
+
+#right_container_01 img{
+    height: 100%;
+    width: 80%;
+    margin-left: 120px;
+}
+
+/* About Page Containers_02 */
+
+#left_container_02{
+    height: 500px;
+    width: 700px;
+    padding-top: 5%;
+}
+
+#left_container_02 img{
+    height: 100%;
+    width: 80%;
+}
+
+#right_container_02{
+    height: 600px;
+    width: 700px;
+    padding-top: 7%;
+}
+
+#right_container_02 p{
+    font-size: 20px;
+    color: #5C5B5B;
+}
+
+
+
+
+ /*------------------------------Footer Styling----------------------------*/
+
+footer{
+    height: 100px;
+    background-color: #6A7B8B;
+    
+}
+
+.footer_container{
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_container img{
+    height: 60px;
+    width: 50px;
+}
+
+.three_images{
+    height: 50px;
+    width: 50%;
+    margin-left: 40%;
+}
+
+.three_images p{
+    font-size: 15px;
+    color: white;
+}
+.three_images img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin: 0 0 0 10px;
+}
+
+/*------------------------------Media queries---------------------------------------*/
+
+        /* On screens that are 992px or less, set the background color to blue */
+
+
+@media screen and (max-width: 992px) {
+
+/* Company's Black Logo*/
+
+.black_logo img{
+    height: 150px;
+    width: 150px;
+    margin-left: 44%;
+}
+
+/*Home Page first image*/
+
+.first_image img{
+    height: 600px;
+    width: 100%;
+    margin-left: 5%;
+    padding: 0;
+}
+
+.imagetext{
+    height: 40px;
+    width: 100%;
+    top: 15%;
+    margin-left: 7%;
+    position: absolute;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: white;  
+    text-shadow: 2px 2px 2px rgb(31, 29, 29);
+}
+
+/* Home Page Three Container */
+
+.trio img{
+    height: 100px;
+    width: 100px;
+    margin-left: 33%;
+    margin-top: 10%;
+}
+
+/* Home Page Find out more button */
+
+
+.find_button button{
+    background-color: #6A7B8B;
+    border-radius: 8px;
+    width: 95%;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 7px;
+}
+
+/* Home Page Two Container */
+
+.left_container p{
+    text-align: center;
+    font-size: 12px;
+    color: #5C5B5B;
+    width: 500px;
+    padding-left: 15%;
+}
+
+.right_container p{
+    text-align: center;
+    font-size: 12px;
+    color: #5C5B5B;
+    width: 500px;
+    padding-right: 15%;
+}
+ 
+ /* Footer Styling */
+
+.three_images{
+    height: 50px;
+    width: 50%;
+    margin-left: 35%;
+}
+
+/* About Page Containers_01*/ 
+
+.about_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5% 10% 5%;
+}
+
+#left_container_01{
+    height: 500px;
+    width: 700px;
+    padding-top: 5%;
+}
+
+.main_text{
+    font-size: 30px;
+    color: #5C5B5B;
+}
+
+#left_container_01 p{
+    font-size: 20px;
+    color: #5C5B5B;
+}
+
+#right_container_01{
+    height: 600px;
+    width: 700px;
+}
+
+#right_container_01 img{
+    height: 100%;
+    width: 80%;
+    margin-left: 120px;
+}
+
+/*------------------------------About Page-------------------*/
+
+/* About Page Containers_01 */
+
+.about_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10% 10% 10%;
+}
+
+
+.main_text{
+    font-size: 20px;
+    font-weight: 800; 
+    color: #5C5B5B;
+}
+
+#left_container_01 p{
+    font-size: 18px;
+    color: #5C5B5B;
+}
+
+#right_container_01{
+    height: 500px;
+    width: 700px;
+}
+
+
+/*-About page Containers_02 */
+
+#right_container_02 p{
+    font-size: 18px;
+    color: #5C5B5B;
+}
+
+/*------Contact Us Page--------------------*/
+
+/* Contact Page Map*/
+
+#map img{
+    margin-left: 20%;
+    height: 80%;
+}
+
+#map{
+    height: 500px;
+}
+
+/* Contact Page From Button*/
+
+button{
+    background-color: #6A7B8B;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 25%;
+}
+
+/*------------------Pop Up Message-----------------------*/
+
+
+  /* Modal Content */
+  
+  .modal-content img{
+      height: 60px;
+      width: 60px;
+  }
+
+  .modal-text{
+      margin: 10px;
+      width: 80%;
+  }
+
+  .modal-text p{
+    text-align: center; 
+    padding-left: 30px;
+}
+  
+  /* Modal Close Button */
+  #close{
+    color: white;
+    /*margin-left: 35%;*/
+    margin: 0 42%;
+    width: 25%;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+
+}
+
+
+             /* On screens that are 600px wide or less, make the columns 
+              stack on top of each other instead of next to each other */
+
+/*Home Page*/
+@media screen and (max-width: 600px) {
+
+ /* Company's Black Logo*/
+
+.black_logo img{
+    height: 150px;
+    width: 150px;
+    margin-left: 40%;
+}
+
+.black_logo p{
+    text-align: center;
+    font-size: 25px;
+    color: #5C5B5B;
+}
+
+/*Home Page first image*/
+
+.first_image{
+    position: relative;
+    width: 90%;  
+}
+
+.first_image img{
+    height: 430px;
+    width: 100%;
+    margin-left: 5%;
+    padding: 0;
+}
+
+.imagetext{
+    height: 40px;
+    width: 100%;
+    top: 15%;
+    margin-left: 7%;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;  
+    text-shadow: 2px 2px 2px rgb(31, 29, 29);
+}
+
+/* Home Page Three Container */
+
+.three_container{
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.trio{
+    margin: 10px;
+    width: 100%; 
+    background-color: rgb(115, 128, 139);
+    height: 90%;
+}
+
+.trio img{
+    height: 100px;
+    width: 100px;
+    margin-left: 40%;
+    margin-top: 15px;;
+}
+
+.trio h2{
+    color: #5C5B5B;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.trio p{
+    color: #5C5B5B;
+    font-size: 12px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    color: white;
+}
+
+/* Home Page Find out more button */
+
+.find_button button{
+    background-color: #6A7B8B;
+    border-radius: 8px;
+    width: 95%;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 7px;
+}
+
+
+/* Home Page Two Container */
+
+.left_container p{
+    text-align: center;
+    font-size: 12px;
+    color: #5C5B5B;
+    width: 500px;
+    padding-left: 35%;
+}
+
+.right_container p{
+    text-align: center;
+    font-size: 12px;
+    color: #5C5B5B;
+    width: 500px;
+    padding-right: 35%;
+}
+
+
+ /* Footer Styling */
+
+ footer{
+    height: 100px;
+    background-color: #6A7B8B;
+    
+}
+
+.footer_container{
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_container img{
+    height: 60px;
+    width: 50px;
+}
+
+.three_images{
+    height: 50px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.three_images p{
+    font-size: 15px;
+    color: white;
+}
+.three_images img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin: 0 0 0 10px;
+}
+
+/*---------About Page---------------*/
+
+/* About Page Containers_01 */
+
+.about_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 5% 10% 10% 10%;
+}
+
+
+.main_text{
+    font-size: 20px;
+    font-weight: 800; 
+    color: #5C5B5B;
+}
+
+#left_container_01{
+    height: 400px;
+    width: auto;
+    padding-top: 5%;
+}
+
+#left_container_01 p{
+    font-size: 18px;
+    color: #5C5B5B;
+}
+
+#right_container_01{
+    height: 500px;;
+    width: auto;
+}
+#right_container_01 img{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+}
+
+
+/*-About page Containers_02 */
+
+
+
+
+#left_container_02{
+    height: 500px;
+    width: auto;
+    padding-top: 5%;
+}
+
+#left_container_02 img{
+    height: 100%;
+    width: 100%;
+}
+
+#right_container_02{
+    height: 500px;
+    width: 700px;
+    padding-top: 10%;
+}
+
+#right_container_02 p{
+    font-size: 18px;
+    color: #5C5B5B;
+}
+
+
+/*----------------Contact Us Page------------------*/
+
+/* Contact Page From Button*/
+
+button{
+    background-color: #6A7B8B;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 22%;
+}
+
+/* Contact Page Map*/
+
+#map img{
+    margin-left: 20%;
+    height: 90%;
+}
+
+#map{
+    height: 300px;
+}
+
+/*------------------Pop Up Message-----------------------*/
+
+
+  /* Modal Content */
+  
+  .modal-content img{
+    height: 30px;
+    width: 30px;
+}
+
+.modal-text{
+    margin: 10px;
+    width: 80%;
+}
+
+.modal-text p{
+  text-align: center; 
+  padding-left: 30px;
+}
+
+/* Modal Close Button */
+#close{
+  color: white;
+  /*margin-left: 35%;*/
+  margin: 0 42%;
+  width: 25%;
+  font-size: 10px;
+  font-weight: bold;
+}
+}
+
+
+  
+
